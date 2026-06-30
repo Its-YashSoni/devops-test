@@ -101,6 +101,6 @@ int main(void)
     {
         GPIOA->ODR ^= (1U << 5);
 
-        for (volatile uint32_t i = 0; i < 1000000; i++);
+        for (volatile uint32_t i = 0; i < 300000; i++);
     }
 }
